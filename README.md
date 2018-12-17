@@ -35,26 +35,33 @@ Si un huevo va explotar .
 La cantidad de caramelos para que evolucione.
 Si determinado pokémon contrarresta a otros en el gimnasio.
 
-
 ## Historias de usuario
 
 **Yo como**: usuario de la página web.
+
 **Quiero**: ver número, nombre, imagen, tipo, y probabilidad que aparezca.
+
 **Funcionalidad**: para tener una vista rápida de la información disponible de los pokemones.
 
 **Yo como**: usuario de la página web.
+
 **Quiero**: filtrar por tipo a los Pokémon.
+
 **Funcionalidad**: para identificarlo, conocerlo y para saber si un Pokémon es de más de 1 tipo.
 
-**Yo como**: usuario de la página web
+**Yo como**: usuario de la página web.
+
 **Quiero**: ordenar  Pokémon por nombre ascendente y descendentemente.
+
 **Funcionalidad**: para conocerlos y me ayuda a aprender los nombres.
 
 **Yo como**: usuario de la página web.
+
 **Quiero**: ver el Pokémon que tiene la mayor y menor cantidad de caramelos.
+
 **Funcionalidad**: para conocer cuántos caramelos necesita para evolucionar.
 
-##Diseño de la Interfaz de Usuario
+###Diseño de la Interfaz de Usuario
 
 ### Prototipo de baja fidelidad
 
@@ -70,7 +77,7 @@ Para mejorar el prototipo de baja fidelidad pasamos a realizar una prueba de tes
 * Un cálculo sobre que pokemones necesitan más o menos caramelos para evolucionar y se filtre justo en el mismo botón donde se filtra por Asc. A-Z.
 
 
-![Sin titulo](src/sketch 2.png)
+![Sin titulo](src/sketch 2.jpg)
 
 
 ### Prototipo de alta fidelidad
@@ -78,10 +85,10 @@ Para mejorar el prototipo de baja fidelidad pasamos a realizar una prueba de tes
 Diseñamos un prototipo con la Herramienta [_Figma_](https://www.figma.com/)
 
 
-![Sin titulo](src/Prototipo 1.png)
+![Sin titulo](src/Prototipo 1.PNG)
 
 
- ![Sin titulo](src/Prototipo 2.png)
+ ![Sin titulo](src/Prototipo 2.PNG)
 
 <!--[_Prototipado_](https://www.figma.com/file/HRmNQ7QJr3ue69S16rv3IO1I/Pokemones?node-id=0%3A1)
 
