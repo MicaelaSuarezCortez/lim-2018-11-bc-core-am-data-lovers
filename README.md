@@ -31,7 +31,7 @@ Conocer su nivel, tipo de ataque y si pueden evolucionar.
 2. ¿Qué necesitarías ver o saber exactamente sobre un pokemon?
 Saber qué tipo es, si de agua o fuego por ejemplo.
 Si todavía puede evolucionar.
-Si un huevo va explotar .
+Si un huevo va explotar.
 La cantidad de caramelos para que evolucione.
 Si determinado pokémon contrarresta a otros en el gimnasio.
 
@@ -61,13 +61,15 @@ Si determinado pokémon contrarresta a otros en el gimnasio.
 
 **Funcionalidad**: para conocer cuántos caramelos necesita para evolucionar.
 
-###Diseño de la Interfaz de Usuario
+
+##Diseño de la Interfaz de Usuario
+
 
 ### Prototipo de baja fidelidad
 
 Luego de las entrevista  realizamos un sketch o boceto de lo que sería el producto teniendo en cuenta la necesidad principal del usuario que era conocer todos los tipos de pokemons y saber si un pokémon tiene más de un tipo.
 
-![Sin titulo](src/sketch 1.png)
+![Sin titulo](src/sketch-1.PNG)
 
 
 Teniendo los sketchs ya mencionados, creímos conveniente realizar una **segunda entrevista** para mejorar el prototipo
@@ -77,7 +79,7 @@ Para mejorar el prototipo de baja fidelidad pasamos a realizar una prueba de tes
 * Un cálculo sobre que pokemones necesitan más o menos caramelos para evolucionar y se filtre justo en el mismo botón donde se filtra por Asc. A-Z.
 
 
-![Sin titulo](src/sketch 2.jpg)
+![Sin titulo](src/sketch-2.JPG)
 
 
 ### Prototipo de alta fidelidad
@@ -85,10 +87,10 @@ Para mejorar el prototipo de baja fidelidad pasamos a realizar una prueba de tes
 Diseñamos un prototipo con la Herramienta [_Figma_](https://www.figma.com/)
 
 
-![Sin titulo](src/Prototipo 1.PNG)
+![Sin titulo](src/Prototipo-1.PNG)
 
 
- ![Sin titulo](src/Prototipo 2.PNG)
+ ![Sin titulo](src/Prototipo-2.PNG)
 
 <!--[_Prototipado_](https://www.figma.com/file/HRmNQ7QJr3ue69S16rv3IO1I/Pokemones?node-id=0%3A1)
 
