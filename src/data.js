@@ -18,14 +18,13 @@ const listData = (data) => {
         <article class="blog-card">
           <img class="post-image" src="${personaje.img }" />
           <div class="article-details">
-            <h4 class="post-category">${personaje.name }</h4>
-            <h3 class="post-title">${ personaje.type }</h3>        
-           
+            <h4 class="post-name">${personaje.name }</h4>
+            <h3 class="post-type"> Tipo: ${ personaje.type }</h3>
           </div>
         </article>
       </div>
     `;
-    // vamos concatenando cada li 
+    // vamos concatenando cada li
     templateListOfCards += card;
   })
   containerList.innerHTML = templateListOfCards;
@@ -39,7 +38,7 @@ const filterData=(data,condition)=>{
 let templateListType='';
 
 data.filter((condition =>(condition.type[0]==='Poison'|| condition.type[1]==='Poison')));
-const cardPoison= `<img class="post-image" src="${condition.img }" /> 
+const cardPoison= `<img class="post-image" src="${condition.img }" />
                   <h4 class="post-category">${condition.name }</h4>
                   <h3 class="post-title">${ condition.type }</h3>`;
 templateListType+=cardPoison;
@@ -56,4 +55,3 @@ computeStats(data) */
 window.listData=listData;
 window.filterData=filterData;
 //window.example = example;
-
