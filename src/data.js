@@ -37,7 +37,7 @@ const filterDataType = (data, filterBy, condition) => {
 
 // Function to filter by quantity of candies
 const filterDataCandy = (data, condition) => {  
-  const newArrayFilter = data.filter(compare => (compare.candy_count === condition));
+  const newArrayFilter = data.filter(compare => (compare.candy_count === condition));  
   return newArrayFilter; 
 };
 

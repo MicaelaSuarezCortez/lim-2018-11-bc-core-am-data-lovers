@@ -15,8 +15,15 @@ fetch('https://raw.githubusercontent.com/Laboratoria/lim-2018-11-bc-core-am-data
   .catch((error) => {
     alert('The connection failed or no response was received from the server: ' + error.message);
   });
-
+  
 function containerAllFunction(pokemonData) {
+  const changeValueCandys = (candyValue) => {
+    if (candyValue <= 400) {
+      return candyValue;
+    }
+    return 'No disponible';
+  };
+
   const listData = (data) => {
     let templateListOfCards = '';
     data.forEach((pokemon) => {
@@ -31,11 +38,11 @@ function containerAllFunction(pokemonData) {
         <p class="article-details">Num: ${pokemon.num}</p>
         <p class="article-details">Tipo: ${pokemon.type.join(' & ')} </p>       
         <p class="article-details">Spawn Chance: ${pokemon.spawn_chance} %</p>
-        <p class="article-details">Caramelos: ${pokemon.candy_count}</p>           
+        <p class="article-details">Caramelos: ${changeValueCandys(pokemon.candy_count)}</p>               
        </div>
     </article>
-   </div>`;
-      templateListOfCards += card;
+   </div>`;      
+      templateListOfCards += card;      
     });
     containerList.innerHTML = templateListOfCards;
   };
